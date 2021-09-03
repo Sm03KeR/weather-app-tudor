@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <title>Vreme</title>
+</head>
+<body>
+    <div class="all">
+    <div class="search">
+        <input type="text" class="search_bar" placeholder="Enter a city">
+        <button class="search_btn">Search</button>
+    </div>
+    <div class="container">
+        <div class="weather">
+            
+        <div class="weather_data">
+            <div class="box1">
+                <h2 class="weather__name">Campeni</h2>
+                <h5 class="weather_time">Mon, 01:00 PM</h5>
+                <h3 class="weather_mood">Mostly Sunny</h3>
+            </div>
+
+            <div class="box2">
+                <h4 class="weather__temp">25<sup>&#x2103</sup></h4>
+                <p class="weather__icon"><img src="01d.png" class="img"></p> 
+            </div>
+            
+            <div class="box3">
+                <div class="box3_1">
+                   <p class="weather__pp"><ion-icon name="umbrella-outline"></ion-icon> Humidity:2%</p> 
+                </div>
+                <div class="box3_2">
+                    <p class="weather__wind"><ion-icon name="return-down-forward-outline"></ion-icon> Wind: 5km/h</p>
+                </div>
+                
+            </div>
+
+        </div>
+
+
+        <div class="weather_next">
+            <div class="in1days">
+                <p>Tomorrow</p>
+                <h4 class="forecast_temp1">25<sup>&#x2103</h4>
+                <p class="weather__icon1"><img src="01d.png" class="img">
+            </div>
+
+            <div class="in2days">
+                <p>In 2 days</p>
+                <h4 class="forecast_temp2">25<sup>&#x2103</h4>
+                <p class="weather__icon2"><img src="01d.png" class="img">
+            </div>
+
+            <div class="in3days">
+                <p>In 3 days</p>
+                <h4 class="forecast_temp3">25<sup>&#x2103</h4>
+                <p class="weather__icon3"><img src="01d.png" class="img">
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--<button class="btn">APASA</button>-->
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
